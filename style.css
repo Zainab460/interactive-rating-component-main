@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;200;300;400;500;600;700;800;900&family=Hanken+Grotesk:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mouse+Memoirs&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: "Overpass", sans-serif;
+  width: 100vw;
+  height: 100vh;
+  color: white;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+/* Rating Card */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: hsl(216, 12%, 8%);
+}
+
+.trailer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.rating-card {
+  width: 420px;
+  height: 420px;
+  padding: 30px;
+  border-radius: 30px;
+  background-color: hsl(216, 21%, 14%);
+}
+
+.rating-card img {
+  background-color: hsl(218, 18%, 18%);
+  padding: 11px 11px;
+  border-radius: 50%;
+}
+
+ h1 {
+  font-size: 27px;
+  margin: 25px 0px;
+}
+
+p {
+  font-size: 15px;
+  color: hsl(216, 12%, 54%);
+  font-weight: 600;
+  line-height: 29px;
+}
+/* Buttons */
+.quality {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px auto;
+}
+.quality button {
+  padding: 15px 20px;
+  background-color: hsl(218, 18%, 18%);
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  color: hsl(216, 12%, 54%) ;
+}
+
+.btn {
+  text-align: center;
+  border: none;
+}
+#submit-btn {
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  color: white;
+  background-color: hsl(25, 97%, 53%);
+  padding: 13px 130px;
+  border: none;
+  border-radius: 30px;
+  
+}
+#submit-btn:hover {
+    color: hsl(25, 97%, 53%);
+    background-color: white;
+    cursor: pointer;
+}
+.quality button:hover {
+    color:white;
+    background-color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+.quality button:focus {
+    background-color: hsl(216, 12%, 54%);
+    color: white;
+}
+/* Thank You Card */
+.thank-you {
+    text-align: center;
+    width: 420px;
+    height: 420px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: hsl(216, 21%, 14%);
+}
+.hidden {
+  display: none;
+}
+.thank-you img {
+    padding: 20px;
+
+}
+.thank-you h1 {
+    margin:10px 0px;
+
+}
+.selected {
+    background-color: hsl(218, 18%, 18%);
+    border-radius: 30px;
+    padding: 5px 15px;
+    color:  hsl(25, 66%, 53%);
+    font-size: 15px;
+}
+.picked {
+    margin-bottom: 40px;
+}
+.rate-again {
+  text-align: center;
+  border: none;
+}
+#rate-btn {
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  color: white;
+  background-color: hsl(25, 97%, 53%);
+  padding: 13px 100px;
+  border: none;
+  border-radius: 30px;
+  
+}
+#rate-btn:hover {
+    color: hsl(25, 97%, 53%);
+    background-color: white;
+    cursor: pointer;
+}
+
